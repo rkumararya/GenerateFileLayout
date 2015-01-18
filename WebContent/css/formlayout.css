@@ -1,0 +1,63 @@
+html,body,h1,h2,p{
+	margin:0;
+	padding:0;
+	/*Remove the browsers default margin and padding*/
+}
+body {
+    font-family: Arial, Helvetica, Verdana, Sans-serif;
+    font-size: 12px;
+    color: #666666;
+    background: #ffffff;
+}
+
+.hidden {
+    display: none;
+}
+.padding{
+	padding: 25px;
+}
+
+#page-container{
+	width:960px;
+	margin-left:auto;/*center the div to the window*/
+	margin-right:auto;
+	margin-top:50px;
+	margin-bottom:10px;
+	border:solid 1px #eee;
+}
+#man-nav{
+	background:#428bca;
+	height:50px;
+}
+#man-nav span h1 {
+	font-family: Arial, Helvetica, Verdana, Sans-serif;
+	font-size: 15px;
+	color:#fff;
+	padding:10px;
+}
+#header{
+	height:150px;
+	//background: #db6d16;
+}
+#sidebar{
+	//background:orange;
+	float:left;
+	width:280px;
+
+}
+#content{
+	background:#FFFFCC;
+	margin:5px;/*just same as the sidebar width so that the content can push it away 280px from sidebar*/
+}
+#content p{
+	padding-bottom:10px;
+}
+/* display form */
+.form-group{
+	display:block;
+}
+#footer{
+	clear:both;
+	background:#eee;
+	height:60px;
+}

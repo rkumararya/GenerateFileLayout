@@ -1,0 +1,50 @@
+html,body,h1,h2,p{
+	margin:0;
+	padding:0;
+	/*Remove the browsers default margin and padding*/
+}
+body {
+    font-family: Arial, Helvetica, Verdana, Sans-serif;
+    font-size: 12px;
+    color: #666666;
+    background: #ffffff;
+}
+
+.hidden {
+    display: none;
+}
+.padding{
+	padding: 25px;
+}
+
+#page-container{
+	width:960px;
+	margin:auto;/*center the div to the window*/
+	border:solid 1px #eee;
+}
+#man-nav{
+	background:#eee;
+	height:50px;
+}
+#header{
+	height:150px;
+	//background: #db6d16;
+}
+#sidebar{
+	//background:orange;
+	float:left;
+	width:280px;
+
+}
+#content{
+	//background:pink;
+	margin-left:280px;/*just same as the sidebar width so that the content can push it away 280px from sidebar*/
+}
+#content p{
+	padding-bottom:10px;
+}
+#footer{
+	clear:both;
+	background:#eee;
+	height:60px;
+}
