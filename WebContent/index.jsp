@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link href='css/formlayout.css' rel='stylesheet' type='text/css'>
-<title>File Layout</title>
+<title>File Layout :: </title>
 </head>
 <body>
 		<div id="page-container">
