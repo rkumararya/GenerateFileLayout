@@ -22,8 +22,10 @@ body {
 	margin:auto;/*center the div to the window*/
 	border:solid 1px #eee;
 }
+
 #man-nav{
 	background:#eee;
+	/*	background:#eee;*/
 	height:50px;
 }
 #header{
